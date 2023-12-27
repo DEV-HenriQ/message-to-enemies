@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body
+{
+   min-height: 100vh;
+   height: 100vh;
+   background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+   display: flex;
+   flex-direction: column;
+}
+
+.principal-message
+{
+   height: 97vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   font-family: 'Rubik Mono One', monospace;
+   color: #d17474;
+   font-size: 3rem;
+}
+
+.footer
+{
+   height: 3vh;
+   background-color: black;
+   color: #5EFCE8;
+   text-align: center;
+}
+
+.teste {animation: dropFromSky 1s forwards;}
+.teste2 {animation: dropFromSky 2s forwards;}
+.teste3 {opacity: 0;animation: shineWords 5s 2s infinite;}
+.teste4 {opacity: 0;animation: appearWord 2.5s 5s forwards;}
+
+@keyframes dropFromSky
+{
+   0% {
+      transform: translateY(-1200px);
+      opacity: 0;
+   }
+   100% {
+      transform: translateY(0px);
+      opacity: 1;
+   }
+}
+
+@keyframes shineWords
+{
+   0% {
+      opacity: 1;
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(2);
+   }
+   100% {
+      opacity: 1;
+      transform: scale(1);
+   }
+}
+
+@keyframes appearWord
+{
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@media (max-width: 420px)
+{
+   .principal-message
+   {
+      font-size: 1.8rem;
+   }
+}
