@@ -30,10 +30,10 @@ body
    text-align: center;
 }
 
-.teste {animation: dropFromSky 1s forwards;}
-.teste2 {animation: dropFromSky 2s forwards;}
-.teste3 {opacity: 0;animation: shineWords 5s 2s infinite;}
-.teste4 {opacity: 0;animation: appearWord 2.5s 5s forwards;}
+.teste {animation: dropFromSky .3s forwards;}
+.teste2 {animation: dropFromSky 1s forwards;}
+.teste3 {opacity: 0;animation: shineWords 5s 1s infinite;}
+.teste4 {opacity: 0;animation: appearWord 2.5s 2s forwards;}
 
 @keyframes dropFromSky
 {
