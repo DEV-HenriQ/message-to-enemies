@@ -1,6 +1,6 @@
 # portfolio-test
- My new portfolio (in test)
+ Este é um site simples, apenas para provocar inimigos no Valorant.
 
-This will be my future portfolio. I'm testing github, deploys, and others things. Thanks for read this!
+Ao entrar no site, ele exibe uma mensagem dizendo que o usuário é ruim no jogo, e que precisa melhorar.
 
 By.: Henri_Q
